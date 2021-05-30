@@ -5,6 +5,25 @@
 }
 
 #header {
-    background-color: rgb(33, 15, 51);
-    color: rgb(252, 180, 129);
+    background-color: #022e57;
+}
+
+#branding h1 {
+    color: #fff5fd;
+}
+
+#user-tools {
+    color: #fff5fd;
+}
+
+#user-tools a {
+    color: #fff5fd !important;
+}
+
+div.breadcrumbs {
+    color: #fff5fd;
+}
+
+div.breadcrumbs a {
+    color: #fff5fd;
 }
