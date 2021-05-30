@@ -1,12 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    hello world
-  </body>
-</html>
+{% extends "admin/base.html" %}
+{% load static %}
+
+{% block title %}
+    Custom Admin
+{% endblock title %}
+
+{% block branding %}
+    <h1 id="head">
+        {% comment %} <img src="" alt="nothing"> {% endcomment %}
+        Title Here
+    </h1>
+{% endblock branding %}
+
+{% block extrastyle %}
+<link rel="stylesheet" href="{% static 'css/admin.css' %}">
+{% endblock extrastyle %}
